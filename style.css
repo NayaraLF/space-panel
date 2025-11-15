@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(#003b72, #095892, #1368a5, #1c79b7);
+  color: #f0f0f0;
+  font-family: "Space Mono", monospace;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: #010e7097 0px 0px 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+#apod-image {
+  width: 100%; /* Faz a imagem ocupar o card */
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+#countdown {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4d91ff;
+}
+
+#apod-image:not([src]) {
+  display: none;
+}
