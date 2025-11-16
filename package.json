@@ -1,0 +1,26 @@
+{
+  "name": "space-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NayaraLF/space-panel.git"
+  },
+  "author": "Nayara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NayaraLF/space-panel/issues"
+  },
+  "homepage": "https://github.com/NayaraLF/space-panel#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
