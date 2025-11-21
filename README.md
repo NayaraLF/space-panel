@@ -1,4 +1,3 @@
 # space-panel
 
-Instalei a versão do node: lts/\* (-> v24.11.1)
-Para testes estou usando o Jest "^30.2.0"
+Nesse projeto criei um site que mostra a foto astronômica do dia da NASA. Além disso, o site mostra a próxima data de lançamento espacial da SpaceX.
