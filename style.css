@@ -24,14 +24,14 @@ header {
 .card {
   background-color: rgb(255, 255, 255, 0.1);
   border-radius: 10px;
-  box-shadow: #010e7097 0px 0px 10px;
+  box-shadow: #010e70a8 0px 0px 10px;
   padding: 20px;
   flex: 1;
   min-width: 300px;
 }
 
 #apod-image {
-  width: 100%; /* Faz a imagem ocupar o card */
+  width: 100%;
   border-radius: 4px;
   margin-bottom: 15px;
 }
